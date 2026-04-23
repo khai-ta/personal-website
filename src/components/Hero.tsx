@@ -15,17 +15,6 @@ const Hero = () => {
         <source src="/hero.mp4" type="video/mp4" />
       </video>
 
-      {/* Attribution */}
-      <div className="absolute bottom-2 right-4 text-xs text-white z-10 bg-black/40 px-2 py-1 rounded">
-        <a
-          href="https://www.vecteezy.com/free-videos/cube-animation"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline"
-        >
-          Cube Animation Stock Video by Vecteezy
-        </a>
-      </div>
     </section>
   );
 };
