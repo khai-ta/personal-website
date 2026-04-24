@@ -6,18 +6,27 @@ import { useEffect } from "react"
 
 export default function Home() {
   useEffect(() => {
-    // CURSOR
-    const cur = document.getElementById('cur');
-    let mx = 0, my = 0;
-    document.addEventListener('mousemove', e => {
-      mx = e.clientX;
-      my = e.clientY;
-      if (cur) {
-        cur.style.left = mx + 'px';
-        cur.style.top = my + 'px';
-      }
-    });
+    const cleanups: (() => void)[] = [];
 
+    // CURSOR - Only on devices with fine pointer (not touch)
+    if (window.matchMedia("(pointer: fine)").matches) {
+      const cur = document.getElementById('cur');
+      let mx = 0, my = 0;
+
+      const moveCursor = (e: MouseEvent) => {
+        mx = e.clientX;
+        my = e.clientY;
+        if (cur) {
+          requestAnimationFrame(() => {
+            cur.style.left = mx + 'px';
+            cur.style.top = my + 'px';
+          });
+        }
+      };
+
+      document.addEventListener('mousemove', moveCursor);
+      cleanups.push(() => document.removeEventListener('mousemove', moveCursor));
+    }
 
     // REVEAL
     const obs = new IntersectionObserver(e => {
@@ -30,6 +39,9 @@ export default function Home() {
     }, { threshold: 0.08 });
 
     document.querySelectorAll('.r').forEach(el => obs.observe(el));
+    cleanups.push(() => obs.disconnect());
+
+    return () => cleanups.forEach(cleanup => cleanup());
   }, []);
 
   return (
