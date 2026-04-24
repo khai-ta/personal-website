@@ -34,8 +34,6 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="hl hbr">kqt5461@psu.edu</div>
-
     </section>
   );
 };
