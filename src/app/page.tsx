@@ -60,42 +60,34 @@ export default function Home() {
             <div className="idx-row r r1">
               <div>
                 <div className="row-title">Lockheed Martin</div>
-                <div className="row-sub">AI/ML Engineer Intern · Incoming</div>
+                <div className="row-sub">AI/ML Research Engineer Intern</div>
+                <div className="row-year">May – Aug 2026</div>
               </div>
-              <div className="row-right">
-                <span className="row-year">2026</span>
-                <span className="row-arrow">↗</span>
-              </div>
+              <span className="row-arrow">↗</span>
             </div>
             <div className="idx-row r r2">
               <div>
                 <div className="row-title">Lockheed Martin</div>
-                <div className="row-sub">AI/ML Engineer Intern</div>
+                <div className="row-sub">AI/ML Research Engineer Intern</div>
+                <div className="row-year">Aug – Nov 2025</div>
               </div>
-              <div className="row-right">
-                <span className="row-year">2025</span>
-                <span className="row-arrow">↗</span>
-              </div>
+              <span className="row-arrow">↗</span>
             </div>
             <div className="idx-row r r3">
               <div>
                 <div className="row-title">ACM @ Penn State</div>
-                <div className="row-sub">Dev Team Director</div>
+                <div className="row-sub">Development Team Director</div>
+                <div className="row-year">Mar 2026 – Present</div>
               </div>
-              <div className="row-right">
-                <span className="row-year">2026–</span>
-                <span className="row-arrow">↗</span>
-              </div>
+              <span className="row-arrow">↗</span>
             </div>
             <div className="idx-row r r4">
               <div>
                 <div className="row-title">HackPSU</div>
                 <div className="row-sub">Full Stack Engineer</div>
+                <div className="row-year">Aug 2024 – Present</div>
               </div>
-              <div className="row-right">
-                <span className="row-year">2024–</span>
-                <span className="row-arrow">↗</span>
-              </div>
+              <span className="row-arrow">↗</span>
             </div>
           </div>
         </div>
