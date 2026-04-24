@@ -70,6 +70,9 @@ export default function Home() {
           <div className="idx-label r">Experience</div>
           <div className="idx-rows">
             <div className="idx-row r r1">
+              <div className="row-logo">
+                <img src="/lockheed.jpeg" alt="Lockheed Martin" />
+              </div>
               <div>
                 <div className="row-title">Lockheed Martin</div>
                 <div className="row-sub">AI/ML Research Engineer Intern</div>
@@ -78,6 +81,9 @@ export default function Home() {
               <span className="row-arrow">↗</span>
             </div>
             <div className="idx-row r r2">
+              <div className="row-logo">
+                <img src="/lockheed.jpeg" alt="Lockheed Martin" />
+              </div>
               <div>
                 <div className="row-title">Lockheed Martin</div>
                 <div className="row-sub">AI/ML Research Engineer Intern</div>
@@ -86,6 +92,9 @@ export default function Home() {
               <span className="row-arrow">↗</span>
             </div>
             <div className="idx-row r r3">
+              <div className="row-logo">
+                <img src="/acm.png" alt="ACM" />
+              </div>
               <div>
                 <div className="row-title">ACM @ Penn State</div>
                 <div className="row-sub">Development Team Director</div>
@@ -94,6 +103,9 @@ export default function Home() {
               <span className="row-arrow">↗</span>
             </div>
             <div className="idx-row r r4">
+              <div className="row-logo">
+                <img src="/hackpsu.png" alt="HackPSU" />
+              </div>
               <div>
                 <div className="row-title">HackPSU</div>
                 <div className="row-sub">Full Stack Engineer</div>
@@ -102,6 +114,9 @@ export default function Home() {
               <span className="row-arrow">↗</span>
             </div>
             <div className="idx-row r">
+              <div className="row-logo">
+                <img src="/nittanyai.jpg" alt="Nittany AI" />
+              </div>
               <div>
                 <div className="row-title">Nittany AI</div>
                 <div className="row-sub">Machine Learning Apprentice</div>

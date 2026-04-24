@@ -132,7 +132,9 @@ nav a:hover::after{width:100%}
 .idx-col+.idx-col{border-left:1px solid var(--line)}
 .idx-label{font-size:9px;font-weight:700;letter-spacing:.3em;color:var(--mid);text-transform:uppercase;font-family:var(--mono);margin-bottom:28px}
 .idx-rows{border-top:1px solid var(--line)}
-.idx-row{display:flex;justify-content:space-between;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--line);gap:20px}
+.idx-row{display:grid;grid-template-columns:40px 1fr auto;align-items:center;padding:14px 0;border-bottom:1px solid var(--line);gap:20px}
+.row-logo{display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.row-logo img{width:40px;height:40px;object-fit:contain}
 .row-title{font-size:15px;font-weight:600;letter-spacing:-.01em;margin-bottom:2px;white-space:nowrap}
 .row-sub{font-size:10px;color:var(--mid);font-weight:400;font-family:var(--mono)}
 .row-right{display:flex;flex-direction:column;align-items:flex-end;gap:3px;flex-shrink:0}
