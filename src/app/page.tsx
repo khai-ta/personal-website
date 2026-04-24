@@ -89,6 +89,14 @@ export default function Home() {
               </div>
               <span className="row-arrow">↗</span>
             </div>
+            <div className="idx-row r">
+              <div>
+                <div className="row-title">Nittany AI</div>
+                <div className="row-sub">Machine Learning Apprentice</div>
+                <div className="row-year">Aug 2024 – May 2025</div>
+              </div>
+              <span className="row-arrow">↗</span>
+            </div>
           </div>
         </div>
 
