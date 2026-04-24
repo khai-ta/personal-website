@@ -129,7 +129,7 @@ export default function Home() {
           <span className="sec-label">Selected Projects</span>
         </div>
         <div className="proj-rows">
-          <div className="proj-row r r1">
+          <a href="https://github.com/khai-ta/siren" target="_blank" rel="noopener noreferrer" className="proj-row r r1" style={{textDecoration: 'none', color: 'inherit', display: 'grid'}}>
             <span className="pn">01</span>
             <div className="pt">Siren</div>
             <div>
@@ -138,8 +138,8 @@ export default function Home() {
             </div>
             <span className="py">APR 2026</span>
             <div className="pa">↗</div>
-          </div>
-          <div className="proj-row r r2">
+          </a>
+          <a href="https://github.com/CruidGals/surviv" target="_blank" rel="noopener noreferrer" className="proj-row r r2" style={{textDecoration: 'none', color: 'inherit', display: 'grid'}}>
             <span className="pn">02</span>
             <div className="pt">Surviv</div>
             <div>
@@ -148,7 +148,7 @@ export default function Home() {
             </div>
             <span className="py">MAR 2026</span>
             <div className="pa">↗</div>
-          </div>
+          </a>
         </div>
       </div>
 
@@ -162,7 +162,7 @@ export default function Home() {
             </svg>
             github.com/khai-ta
           </a>
-          <a href="https://linkedin.com/in/khai-ta" target="_blank" rel="noopener noreferrer" className="clink">
+          <a href="https://www.linkedin.com/in/khai-ta-6b4951316/" target="_blank" rel="noopener noreferrer" className="clink">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style={{display: 'inline', marginRight: '6px', verticalAlign: 'text-bottom'}}>
               <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
               <circle cx="4" cy="4" r="2"></circle>
