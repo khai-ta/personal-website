@@ -9,7 +9,6 @@ const Header = () => {
         <li><a href="#experience">EXPERIENCE</a></li>
         <li><a href="#projects">PROJECTS</a></li>
         <li><a href="#contact">CONTACT</a></li>
-        <li><a href="resume.pdf" target="_blank" className="nav-dim">RÉSUMÉ →</a></li>
       </ul>
     </nav>
   );
